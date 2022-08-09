@@ -38,7 +38,7 @@ public final class ProviderData {
 
     public static class Coin {
         public String name = "Scala";
-        public String symbol = "XLA";
+        public String symbol = "HYT";
         public long units;
         public long denominationUnit = 100L;
     }

@@ -1,5 +1,5 @@
 <p>
-  The Scala Miner is a cryptocurrency miner for all latest Android devices.
+  The Holoyolo Miner is a cryptocurrency miner for all latest Android devices.
   It is very simple to setup and prevents your device from overheating.
 </p>
 

@@ -1,12 +1,12 @@
 {
   "pools" : [
     {
-      "key" : "Scala Project (Official Pool)",
-      "pool" : "mine.scalaproject.io",
+      "key" : "Holoyolo Project (Official Pool)",
+      "pool" : "mine.holoyolo.com",
       "port" : "3333",
       "ports" : ["3333", "5555", "7777", "8888"],
       "type"  :  3,
-      "url" : "https://pool.scalaproject.io",
+      "url" : "https://pool.holoyolo.com",
       "ip" : "95.111.237.231"
     },
     {
@@ -19,7 +19,7 @@
       "ip" : "168.119.229.63"
     },
     {
-      "key" : "Scala Party",
+      "key" : "Holoyolo Party",
       "pool" : "scala.party",
       "port" : "3333",
       "ports" : ["3333", "5555", "7777", "9999"],
@@ -29,11 +29,11 @@
     },
     {
       "key" : "GNTL",
-      "pool" : "xla.pool.gntl.co.uk",
+      "pool" : "HYT.pool.gntl.co.uk",
       "port" : "40002",
       "ports" : ["10002", "20002", "30002", "40002"],
       "type"  :  1,
-      "url" : "https://xla.pool.gntl.co.uk",
+      "url" : "https://HYT.pool.gntl.co.uk",
       "ip" : "83.151.238.34"
     },
     {
@@ -56,11 +56,11 @@
     },
     {
       "key" : "LetsHashIt",
-      "pool" : "xla.letshash.online",
+      "pool" : "HYT.letshash.online",
       "port" : "1559",
       "ports" : ["1559", "1560", "1552", "8561"],
       "type"  :  3,
-      "url" : "https://xla.letshash.online",
+      "url" : "https://HYT.letshash.online",
       "ip" : "135.181.62.60"
     }
   ]

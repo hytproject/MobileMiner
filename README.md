@@ -1,9 +1,9 @@
-# Scala Android Miner
+# Holoyolo Android Miner
 
-A high performance and open-source application for mining Scala on Android mobile devices.
+A high performance and open-source application for mining Holoyolo on Android mobile devices.
 
 <p align="left">
-  <img src="https://scalaproject.io/assets/img/mobile-minerv2.png" width="350" title="hover text">
+  <img src="https://holoyolo.com/assets/img/mobile-minerv2.png" width="350" title="hover text">
 </p>
 
 ## Supported CPU instruction sets
@@ -20,19 +20,19 @@ A high performance and open-source application for mining Scala on Android mobil
 - Live Pool statistics for pools based on nodejs-pool cryptonote-nodejs-pool frameworks
 
 ## Miner
-This application is built upon the libraries of XLArig, the official Scala (XLA) CPU miner.
-- Miner: [XLArig](https://github.com/scala-network/XLArig)
-- Algorithm: [DefyX](https://medium.com/scala-network/scalas-v6-testnet-and-new-proof-of-work-information-3ba2a4eb0ad8)
+This application is built upon the libraries of hytrig, the official Holoyolo (HYT) CPU miner.
+- Miner: [hytrig](https://github.com/holoyolo-network/hytrig)
+- Algorithm: [DefyX](https://medium.com/holoyolo-network/scalas-v6-testnet-and-new-proof-of-work-information-3ba2a4eb0ad8)
 
 ## Usage
 ### Settings
 #### Pool
-When opening the application for the first time, you have to specify the pool that you want to use to mine XLA. Some predefined pools have been configured to make it easier for you. You can still select 'custom' if you wish to use a pool that is not included in the predefined list. More information about the port number can be found on the pools' website, but if you are not sure you can use port '3333'.
+When opening the application for the first time, you have to specify the pool that you want to use to mine HYT. Some predefined pools have been configured to make it easier for you. You can still select 'custom' if you wish to use a pool that is not included in the predefined list. More information about the port number can be found on the pools' website, but if you are not sure you can use port '3333'.
 
 The 'Worker name or pool options' field can be left blank if the pool doesn't use any options/password. In this case, the worker name will be set to your device type (make and model) by default so you can easily identify it on the pool.
 
 #### Wallet Address
-Specifies the Scala wallet address that will be used with the mining pool. A validation has been added to this field to make sure you enter a valid address. You can also use the provided QR code functionnality to retrieve the address. Currently, only the [Official Pool](https://pool.scalaproject.io) and the [Official GUI Wallet](https://github.com/scala-network/scala-electron-gui) support QR code functionnality.
+Specifies the Holoyolo wallet address that will be used with the mining pool. A validation has been added to this field to make sure you enter a valid address. You can also use the provided QR code functionnality to retrieve the address. Currently, only the [Official Pool](https://pool.holoyolo.com) and the [Official GUI Wallet](https://github.com/holoyolo-network/scala-electron-gui) support QR code functionnality.
 
 #### Hardware Settings
 ##### CPU Cores
@@ -63,7 +63,7 @@ When saving the settings, you will be redirected automatically to the Miner page
 
 The Payout Widget which is at the top of the screen displays the current balance for the selected pool and the progression toward the defined mining goal. If the specified pool does not provide an API (in the case of custom pools for example), this widget will be hidden.
 
-The stats about the hashrate and the accepted shares are then presented in the Device Widget. All the information is extracted from XLArig. The hahsrate information comes from the 15s/30s/60s hashrate data from the output log, in this order of priority. The CPU and Battery temperatures are used for the AMYAC integration and static temperature protection. The middle screen displays the output log from XLArig as is.
+The stats about the hashrate and the accepted shares are then presented in the Device Widget. All the information is extracted from hytrig. The hahsrate information comes from the 15s/30s/60s hashrate data from the output log, in this order of priority. The CPU and Battery temperatures are used for the AMYAC integration and static temperature protection. The middle screen displays the output log from hytrig as is.
 
 You can use the buttons at the bottom of the application to display the hashrate in the log ('H'), to pause the miner ('P') and to resume the miner ('R'). You cannot resume the miner when the device is cooling.
 
@@ -74,23 +74,13 @@ The application will keep mining even when your device is on standby mode. So ke
 - Wallet integration
 - Unified design for the all-in-one application
 
-## Donations
-Donations setting has been set to 0% in the XLArig lib embedded within the application.
-* XLA: `SEiTBcLGpfm3uj5b5RaZDGSUoAGnLCyG5aJjAwko67jqRwWEH26NFPd26EUpdL1zh4RTmTdRWLz8WCmk5F4umYaFByMtJT6RLjD6vzApQJWfi`
-* BTC: `1XTLY5LqdBXRW6hcHtnuMU7c68mAyW6qm`
-* ETH: `0x133a15dF7177823Dd407ca87A190bbE4585a379e`
-
 ## Credits
-* Forked from [Mine2gether](https://github.com/Mine2Gether/m2g_android_miner)
 * Original code from [MoneroMiner](https://github.com/upost/MoneroMiner)
 
 ## Contacts
-* [Website](https://scalaproject.io/)
-* hello@scalaproject.io
-* [Discord](https://discord.gg/djAFVvy)
-* [Twitter](https://twitter.com/scalahq)
-
+* [Website](https://holoyolo.com/)
+* hello@holoyolo.com
 
 # License
 
-XLARig and Mobile Miner is licensed as GPLv3, thus this derivative work also is. You need to consider this if you plan to publish an Android application. You'd propably need to make it GPLv3 also, unless you can somehow make use of the GPL clause which allows to bundle a GPLv3 binary with another proprietary licensed binary.
+hytrig and Mobile Miner is licensed as GPLv3, thus this derivative work also is. You need to consider this if you plan to publish an Android application. You'd propably need to make it GPLv3 also, unless you can somehow make use of the GPL clause which allows to bundle a GPLv3 binary with another proprietary licensed binary.

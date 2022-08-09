@@ -586,7 +586,7 @@ public class MainActivity extends BaseActivity
 
                 bPayoutDataReceived = true;
 
-                enablePayoutWidget(true, "XLA");
+                enablePayoutWidget(true, "HYT");
                 updatePayoutWidget(d);
             }
 
@@ -1227,11 +1227,11 @@ public class MainActivity extends BaseActivity
             enablePayoutWidget(false, "Loading...");
         }
         else {
-            enablePayoutWidget(true, "XLA");
+            enablePayoutWidget(true, "HYT");
 
             // Payout
             String sBalance = d.miner.balance;
-            sBalance = sBalance.replace("XLA", "").trim();
+            sBalance = sBalance.replace("HYT", "").trim();
             TextView tvBalance = findViewById(R.id.balance_payout);
             tvBalance.setText(sBalance.isEmpty() ? Tools.getLongValueString(0.0) : sBalance);
 
@@ -1267,8 +1267,8 @@ public class MainActivity extends BaseActivity
             TextView tvBalance = findViewById(R.id.balance_payout);
             tvBalance.setVisibility(View.VISIBLE);
 
-            TextView tvXLAUnit = findViewById(R.id.xlaunit);
-            tvXLAUnit.setVisibility(View.VISIBLE);
+            TextView tvHYTUnit = findViewById(R.id.HYTunit);
+            tvHYTUnit.setVisibility(View.VISIBLE);
 
             TextView tvPercentage = findViewById(R.id.percentage);
             tvPercentage.setVisibility(View.VISIBLE);
@@ -1282,8 +1282,8 @@ public class MainActivity extends BaseActivity
             TextView tvBalance = findViewById(R.id.balance_payout);
             tvBalance.setVisibility(View.INVISIBLE);
 
-            TextView tvXLAUnit = findViewById(R.id.xlaunit);
-            tvXLAUnit.setVisibility(View.INVISIBLE);
+            TextView tvHYTUnit = findViewById(R.id.HYTunit);
+            tvHYTUnit.setVisibility(View.INVISIBLE);
 
             TextView tvPercentage = findViewById(R.id.percentage);
             tvPercentage.setVisibility(View.INVISIBLE);
@@ -1561,7 +1561,7 @@ public class MainActivity extends BaseActivity
 
         if(!ProviderManager.data.isNew) {
             updatePayoutWidget(ProviderManager.data);
-            enablePayoutWidget(true, "XLA");
+            enablePayoutWidget(true, "HYT");
         }
 
         StatsFragment.updateStatsListener();
@@ -2189,7 +2189,7 @@ public class MainActivity extends BaseActivity
                 hrMax = getMaxHr(fHr);
             }
 
-            // Sometimes xlarig returns a wrong low hrMax, but it needs to be > tick number, so we force a dummy max number
+            // Sometimes hytrig returns a wrong low hrMax, but it needs to be > tick number, so we force a dummy max number
             if(hrMax <= 10.0f) {
                 hrMax = 25.0f;
             }

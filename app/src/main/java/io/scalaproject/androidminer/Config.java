@@ -23,8 +23,8 @@ public class Config {
 
     public static final int MAX_WORKERNAME_TITLE_CHARS = 25;
 
-    public static final String URL_CHANGELOG_DIRECTORY = "https://raw.githubusercontent.com/scala-network/MobileMiner/master/fastlane/metadata/android/en-US/changelog/";
-    public static final String URL_RELEASES = "https://github.com/scala-network/MobileMiner/releases";
+    public static final String URL_CHANGELOG_DIRECTORY = "https://raw.githubusercontent.com/holoyolo-network/MobileMiner/master/fastlane/metadata/android/en-US/changelog/";
+    public static final String URL_RELEASES = "https://github.com/holoyolo-network/MobileMiner/releases";
 
     public final static String[] SUPPORTED_ARCHITECTURES = {"arm64-v8a", "armeabi-v7a", "x86_64"};
 
@@ -70,7 +70,7 @@ public class Config {
     public final static int DefaultCooldownTheshold = 10; // 5,10,15,20,25
 
     public static final Long statsDelay = 30000L;
-    public static final String miner_xlarig = "xlarig";
+    public static final String miner_hytrig = "hytrig";
     static final String algo = "panthera";
 
     public static final String CONFIG_KEY_CONFIG_VERSION = "config_version";

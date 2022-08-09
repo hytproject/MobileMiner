@@ -105,7 +105,7 @@ public final class NodejsPool extends ProviderAbstract {
             mBlockData.network.lastBlockHeight = joNetworkStats.optString("height");
             mBlockData.network.difficulty = getReadableDifficultyString(joNetworkStats.optLong("difficulty"));
             mBlockData.network.lastBlockTime = pTime.format(new Date(joNetworkStats.optLong("ts") * 1000));
-            mBlockData.network.lastRewardAmount =  parseCurrency(joNetworkStats.optString("value", "0"), denominationUnit, denominationUnit, "XLA");
+            mBlockData.network.lastRewardAmount =  parseCurrency(joNetworkStats.optString("value", "0"), denominationUnit, denominationUnit, "HYT");
             mBlockData.network.hashrate = getReadableHashRateString(joNetworkStats.optLong("difficulty") / 120L);
         } catch (JSONException e) {
             Log.i(LOG_TAG, "NETWORK\n" + e.toString());

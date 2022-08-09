@@ -185,7 +185,7 @@ public class WizardAddressActivity extends BaseActivity {
                     public void onClick(DialogInterface dialogInterface, int i) {
                         View view2 = findViewById(android.R.id.content).getRootView();
                         TextView tvAddress = view2.findViewById(R.id.addressWizard);
-                        tvAddress.setText(Utils.SCALA_XLA_ADDRESS);
+                        tvAddress.setText(Utils.SCALA_HYT_ADDRESS);
                     }
                 })
                 .setNegativeButton(getString(R.string.no), null)

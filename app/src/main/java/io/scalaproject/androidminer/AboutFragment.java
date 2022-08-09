@@ -39,7 +39,7 @@ public class AboutFragment extends Fragment {
         TextView tvBuild = view.findViewById(R.id.build);
         tvBuild.setText(BuildConfig.VERSION_NAME + " (" + Utils.getBuildTime() + ")");
 
-        TextView tvScala = view.findViewById(R.id.tvScala);
+        TextView tvHoloyolo = view.findViewById(R.id.tvScala);
         tvScala.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

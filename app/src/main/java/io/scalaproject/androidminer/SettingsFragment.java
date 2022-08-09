@@ -456,7 +456,7 @@ public class SettingsFragment extends Fragment {
             }
         });
 
-        Button btnMineScala = view.findViewById(R.id.btnMineScala);
+        Button btnMineHoloyolo = view.findViewById(R.id.btnMineScala);
         btnMineScala.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -467,7 +467,7 @@ public class SettingsFragment extends Fragment {
                         .setPositiveButton(getString(R.string.yes), new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
-                                edAddress.setText(Utils.SCALA_XLA_ADDRESS);
+                                edAddress.setText(Utils.SCALA_HYT_ADDRESS);
                             }
                         })
                         .setNegativeButton(getString(R.string.no), null)

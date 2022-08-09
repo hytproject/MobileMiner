@@ -736,11 +736,11 @@
                                         android:textSize="12sp" />
 
                                     <TextView
-                                        android:id="@+id/xlaunit"
+                                        android:id="@+id/HYTunit"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:gravity="start"
-                                        android:text="@string/xla"
+                                        android:text="@string/HYT"
                                         android:textColor="@color/txt_main"
                                         android:textSize="12sp" />
 
@@ -811,7 +811,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:gravity="start"
-                                        android:text="@string/xla"
+                                        android:text="@string/HYT"
                                         android:textColor="@color/txt_main"
                                         android:textSize="12sp" />
 

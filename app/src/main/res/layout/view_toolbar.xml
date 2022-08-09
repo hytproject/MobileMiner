@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:visibility="invisible"
-        tools:text="Scala Vault" />
+        tools:text="Holoyolo Vault" />
 
     <Space
         android:layout_width="0dp"
@@ -33,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
-        tools:text="Scala Vault" />
+        tools:text="Holoyolo Vault" />
 
     <Space
         android:layout_width="0dp"

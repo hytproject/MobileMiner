@@ -24,7 +24,7 @@ import java.util.Collection;
 import java.util.List;
 
 public class QrCodeScannerActivity extends BaseActivity {
-    public static final String XLA_SCHEME = "scala:";
+    public static final String HYT_SCHEME = "scala:";
 
     private DecoratedBarcodeView barcodeView;
     private Button btnFlashlight;
@@ -39,8 +39,8 @@ public class QrCodeScannerActivity extends BaseActivity {
             }
 
             lastText = result.getText();
-            if(lastText.startsWith(XLA_SCHEME)) {
-                lastText = lastText.substring(XLA_SCHEME.length());
+            if(lastText.startsWith(HYT_SCHEME)) {
+                lastText = lastText.substring(HYT_SCHEME.length());
             }
 
             barcodeView.setStatusText(lastText + System.getProperty("line.separator") + System.getProperty("line.separator") + System.getProperty("line.separator"));
@@ -55,7 +55,7 @@ public class QrCodeScannerActivity extends BaseActivity {
                 return;
             }
 
-            Utils.showToast(getApplicationContext(), "Invalid Scala address", Toast.LENGTH_SHORT);
+            Utils.showToast(getApplicationContext(), "Invalid Holoyolo address", Toast.LENGTH_SHORT);
         }
 
         @Override

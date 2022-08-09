@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Scala Miner</string>
+    <string name="app_name">Holoyolo Miner</string>
     <string name="help">Help</string>
     <string name="celsius">°C</string>
     <string name="cooling">Cooling…</string>
@@ -30,16 +30,16 @@
     <string name="mininglog">Mining Log</string>
     <string name="value_empty">We need this!</string>
 
-    <string name="mobileminerLink">https://mobileminer.scalaproject.io</string>
-    <string name="privacyPolicyLink">https://scalaproject.io/miner-privacy-policy.html</string>
+    <string name="mobileminerLink">https://mobileminer.holoyolo.com</string>
+    <string name="privacyPolicyLink">https://holoyolo.com/miner-privacy-policy.html</string>
     <string name="discordLink">https://discord.gg/djAFVvy</string>
-    <string name="mediumLink">https://medium.com/scala-network</string>
+    <string name="mediumLink">https://medium.com/holoyolo-network</string>
     <string name="twitterLink">https://twitter.com/scalahq</string>
     <string name="redditLink">https://www.reddit.com/r/ScalaNetwork/</string>
     <string name="telegramLink">https://t.me/scalaofficial</string>
-    <string name="emailLink">mailto:hello@scalaproject.io</string>
-    <string name="ScalaLinkClean">https://scalaproject.io</string>
-    <string name="amaycPostLink">https://amayc.scalaproject.io/</string>
+    <string name="emailLink">mailto:hello@holoyolo.com</string>
+    <string name="ScalaLinkClean">https://holoyolo.com</string>
+    <string name="amaycPostLink">https://amayc.holoyolo.com/</string>
     <string name="maxtemperaturereached">Temperature threshold reached!</string>
     <string name="resumedmining">Temperatures have reached safe levels. Mining resumed.</string>
     <string name="pauseonmining">Put device on charge to enable mining.</string>
@@ -61,11 +61,11 @@
     <string name="amaycpaused">Cannot resume mining when device is cooling.</string>
     <string name="amaycerror">AMAYC: Cannot reach distant server.</string>
     <string name="miningpaused">Mining paused until temperatures return to safe levels.</string>
-    <string name="miningbackground">Scala Miner is still mining in the background.</string>
+    <string name="miningbackground">Holoyolo Miner is still mining in the background.</string>
     <string name="donationadressbtc_copied">BTC Donation Address copied.</string>
     <string name="donationadresseth_copied">ETH Donation Address copied.</string>
     <string name="donationadressltc_copied">LTC Donation Address copied.</string>
-    <string name="donationadressxla_copied">XLA Donation Address copied.</string>
+    <string name="donationadressHYT_copied">HYT Donation Address copied.</string>
     <string name="statictempcontrol">Switched to static temperature control.</string>
     <string name="debuginfo">Copy Debug Info</string>
     <string name="debuginfo_copied">Debug Information copied.</string>
@@ -73,7 +73,7 @@
     <string name="usernameparametershint">Username parameters</string>
     <string name="workernamehint">Worker name or password</string>
     <string name="landingpage_headline">Start mining on your mobile device safely and efficiently</string>
-    <string name="landingpage_introduction">Scala Miner provides useful information about your mining activities and prevents your device from overheating.</string>
+    <string name="landingpage_introduction">Holoyolo Miner provides useful information about your mining activities and prevents your device from overheating.</string>
     <string name="createaddress">Create your wallet</string>
     <string name="disclaimer_agreement">By using this application, you confirm your knowledge and acceptance of the Disclaimer</string>
     <string name="scala_vault_play_store">https://play.google.com/store/apps/details?id=io.scalaproject.vault</string>
@@ -89,14 +89,14 @@
     <string name="miners">Miners</string>
     <string name="advanced">Advanced</string>
     <string name="supporttheproject">Do you want to support the project?</string>
-    <string name="minetoscala">The Scala donation address will then be used for mining.</string>
+    <string name="minetoscala">The Holoyolo donation address will then be used for mining.</string>
     <string name="stopmining">Do you want to stop mining?</string>
     <string name="newSettings">Restart mining process to apply the new settings.</string>
     <string name="closeApp">If you close the app, the mining process will be stopped.</string>
     <string name="newparametersapplied">You will have to restart the mining process in order for the new parameters to be applied.</string>
-    <string name="hashrate_share">Take a look at my Scala Mobile Miner stats! I\'m currently mining on my Android device. Download the app to start mining on your phone: https://mobileminer.scalaproject.io/</string>
-    <string name="app_share">"Did you know you can mine cryptocurrencies on any Android device? Download the app to start mining on your phone: https://mobileminer.scalaproject.io/</string>
-    <string name="share_title">Scala Mobile Miner</string>
+    <string name="hashrate_share">Take a look at my Holoyolo Mobile Miner stats! I\'m currently mining on my Android device. Download the app to start mining on your phone: https://mobileminer.holoyolo.com/</string>
+    <string name="app_share">"Did you know you can mine cryptocurrencies on any Android device? Download the app to start mining on your phone: https://mobileminer.holoyolo.com/</string>
+    <string name="share_title">Holoyolo Mobile Miner</string>
     <string name="share_via">Share via</string>
     <string name="running_status">Running</string>
     <string name="stopped_status">Stopped</string>
@@ -114,7 +114,7 @@
         <strong>Turning this feature off might cause damage to your device.</strong>
     ]]></string>
 
-    <string name="donation_addresses_help">If you would like to help build this project, you can send BTC, ETH, LTC or XLA to the project\'s wallet. Thanks for your support!</string>
+    <string name="donation_addresses_help">If you would like to help build this project, you can send BTC, ETH, LTC or HYT to the project\'s wallet. Thanks for your support!</string>
     <string name="hardware_settings_help">Your device will start cooling when the CPU or battery reach the specified temperatures.\n\nThe cooldown threshold defines the temperature at which the application will resume the mining process.</string>
 
     <string name="loading_pools" tools:ignore="TypographyEllipsis">Loading pools...</string>
@@ -122,7 +122,7 @@
     <string name="disclaimerText">Running your CPU at a high intensity for a prolonged duration may result in negative effects such as: battery drainage, slow response time, overheating, and may cause permanent damage to your device.\n\nWe recommend using the Temperature Control settings and a low number of CPU Cores to prevent damage to your device.\n\nBy using this application, you assume full responsibility for any damage that may be caused to your device, property or self.</string>
     <string name="btc">BTC</string>
     <string name="eth">ETH</string>
-    <string name="xla">XLA</string>
+    <string name="HYT">HYT</string>
     <string name="cpu_cores">CPU Cores</string>
     <string name="hashes_second">Hashes/second</string>
     <string name="log">Mining Log</string>
@@ -211,7 +211,7 @@
     <string name="latest_version_ok">You have the latest version.</string>
     <string name="latest_version_not_ok">You don\'t have the latest version.</string>
     <string name="cannot_retrieve_changelog_data">Cannot retrieve changelog data.</string>
-    <string name="scala_address_wizard">You need to provide your Scala wallet address to start mining.</string>
+    <string name="scala_address_wizard">You need to provide your Holoyolo wallet address to start mining.</string>
     <string name="url">URL</string>
     <string name="name">Name</string>
     <string name="mining_resumed_by_user">Mining resumed by user.</string>

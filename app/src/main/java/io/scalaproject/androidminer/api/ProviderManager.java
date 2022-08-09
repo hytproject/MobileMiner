@@ -28,12 +28,12 @@ public final class ProviderManager {
     // Increment the version number when the pool json structure changes
     static private final String version = "1";
 
-    static private final String DEFAULT_POOLS_REPOSITORY = "https://raw.githubusercontent.com/scala-network/MobileMiner/master/app.json";
+    static private final String DEFAULT_POOLS_REPOSITORY = "https://raw.githubusercontent.com/holoyolo-network/MobileMiner/master/app.json";
 
     // USAGE: When the DEFAULT_POOLS_REPOSITORY file is modified, we need to upload the new file
     //        to the IPNS gateway as well. This is to avoid having to release a new version of the app
     //        every time the data changes.
-    static private final String IPNS_NAME = "pool-list.scalaproject.io";
+    static private final String IPNS_NAME = "pool-list.holoyolo.com";
     static private final String[] POOLS_REPOSITORY_IPNS_GATEWAYS = {
             "https://dweb.link/ipns/",
             "https://ipfs.io/ipns/",
@@ -44,12 +44,12 @@ public final class ProviderManager {
     static private final String DEFAULT_POOL = "{\n" +
             "\"pools\": [\n" +
             "{\n" +
-            "\"key\": \"Scala Project (Official Pool)\",\n" +
-            "\"pool\": \"mine.scalaproject.io\",\n" +
+            "\"key\": \"Holoyolo Project (Official Pool)\",\n" +
+            "\"pool\": \"mine.holoyolo.com\",\n" +
             "\"port\": \"3333\",\n" +
             "\"ports\": [\"3333\", \"5555\", \"7777\", \"8888\"],\n" +
             "\"type\": 3,\n" +
-            "\"url\": \"https://pool.scalaproject.io\",\n" +
+            "\"url\": \"https://pool.holoyolo.com\",\n" +
             "\"ip\": \"95.111.237.231\"\n" +
             "} ]\n" +
             "}";

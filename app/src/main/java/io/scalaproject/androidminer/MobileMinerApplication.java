@@ -22,7 +22,7 @@ import org.acra.annotation.AcraMailSender;
 import static io.scalaproject.androidminer.MainActivity.contextOfApplication;
 
 @AcraCore(buildConfigClass = BuildConfig.class)
-@AcraMailSender(mailTo = "hello@scalaproject.io")
+@AcraMailSender(mailTo = "hello@holoyolo.com")
 public class MobileMinerApplication extends Application implements LifecycleObserver {
     @Override
     public void onCreate() {
